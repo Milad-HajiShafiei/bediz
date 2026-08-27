@@ -1,0 +1,15 @@
+[package]
+name = "bediz"
+version = "0.1.0"
+edition = "2024"
+description = "A keyboard-driven terminal image viewer with ANSI, ASCII, and Sixel rendering"
+readme = "README.md"
+license = "MIT"
+keywords = ["terminal", "image-viewer", "tui", "sixel"]
+categories = ["command-line-utilities", "multimedia::images"]
+# Set this before publishing to crates.io.
+# repository = "https://github.com/YOUR-USERNAME/bediz"
+
+[dependencies]
+ratatui = "0.30.2"
+image = "0.25.10"
