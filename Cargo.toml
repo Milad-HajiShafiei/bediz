@@ -7,8 +7,7 @@ readme = "README.md"
 license = "MIT"
 keywords = ["terminal", "image-viewer", "tui", "sixel"]
 categories = ["command-line-utilities", "multimedia::images"]
-# Set this before publishing to crates.io.
-# repository = "https://github.com/YOUR-USERNAME/bediz"
+repository = "https://github.com/Milad-HajiShafiei/bediz"
 
 [dependencies]
 ratatui = "0.30.2"

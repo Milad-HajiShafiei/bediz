@@ -2,9 +2,11 @@
 
 A keyboard-driven terminal image viewer written in Rust, with ANSI half-block, ASCII, and Sixel rendering modes.
 
-[![Build](https://github.com/YOUR-USERNAME/bediz/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR-USERNAME/bediz/actions/workflows/ci.yml)
+<img src="./assets/bediz.png" />
 
-> Replace `YOUR-USERNAME/bediz` above with the final repository path before publishing.
+<br/>
+
+[![Repository](https://img.shields.io/badge/repository-GitHub-181717?logo=github)](https://github.com/Milad-HajiShafiei/bediz)
 
 ## Features
 
@@ -106,24 +108,6 @@ Build an optimized binary:
 cargo build --release
 ```
 
-## Publishing checklist
-
-Before publishing a release or submitting to crates.io:
-
-1. Replace the placeholder repository URL in this README.
-2. Add repository metadata to `Cargo.toml`:
-
-   ```toml
-   repository = "https://github.com/YOUR-USERNAME/bediz"
-   ```
-
-3. Confirm the package contents with `cargo package --list`.
-4. Run `cargo publish --dry-run`.
-5. Verify the application manually in a normal true-color terminal and, if supported, a Sixel terminal.
-6. Add a `LICENSE` file containing the MIT license text.
-
-Images, build output, and local Freebuff data are intentionally excluded through `.gitignore`.
-
 ## License
 
-This project is intended to be released under the MIT License. Add the repository's `LICENSE` file before publishing.
+Licensed under the [MIT License](LICENSE).
